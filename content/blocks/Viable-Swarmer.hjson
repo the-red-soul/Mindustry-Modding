@@ -13,6 +13,7 @@
 	"targetair": true,
 	"targetground": true,
 	"shootSound": "missile",
+	"researchCostMultiplier": 0.1,
 	
 	"ammoTypes": {
 	"blast-compound": {
@@ -55,6 +56,8 @@
 			"lightningDamage": 10,
 			"lightning": 2,
 			"lightningLength": 10
+		}
+	}
 	"requirements": [
 		{ "item": "plastanium", "amount": 45 },
 		{ "item": "titanium", "amount": 35 },
