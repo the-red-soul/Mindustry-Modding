@@ -22,7 +22,7 @@
 			"hitEffect": "blastExplosion",
 			"despawnEffect": "blastExplosion",
 			"drag": 0.1,
-			"ammoMultiplier": 10,
+			"ammoMultiplier": 8,
 			"splashDamage": 45,
 			"splashDamageRadius": 29.6,
 			"trailEffect": "missileTrail",
@@ -37,7 +37,7 @@
 			"hitEffect": "blastExplosion",
 			"despawnEffect": "blastExplosion",
 			"drag": 0.1,
-			"ammoMultiplier": 10,
+			"ammoMultiplier": 8,
 			"splashDamage": 30,
 			"splashDamageRadius": 20,
 			"trailEffect": "missileTrail",
@@ -51,7 +51,7 @@
 			"hitEffect": "blastExplosion",
 			"despawnEffect": "blastExplosion",
 			"drag": 0.1,
-			"ammoMultiplier": 10,
+			"ammoMultiplier": 8,
 			"splashDamage": 37,
 			"splashDamageRadius": 24.8,
 			"trailEffect": "missileTrail",
@@ -68,4 +68,5 @@
 	]
 	"research": "swarmer",
 	"category": "turret"
+	"baseRegion": "
 }
