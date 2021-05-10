@@ -1,1 +1,8 @@
-tttt
+name: "Viable Swarmer"
+displayName: "Viable Swarmer."
+author: the_red_soul
+description: "A viable Swarmer turret"
+version: "1.0"
+minGameVersion: "126.2"
+dependencies: [ ]
+hidden: false

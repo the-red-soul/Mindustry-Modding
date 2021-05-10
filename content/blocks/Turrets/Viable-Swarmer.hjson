@@ -1,0 +1,25 @@
+	"name": "A viable Swarmer"
+	"description": "A Swarmer, except now it is actually viable to use in a defence."
+	"type": "ItemTurret"
+	"health": 1200,
+	"size": 2,
+	"range": 200,
+	"reloadTime": 30,
+	"shots": 4,
+	"inaccuracy": 10
+	"burstSpacing": 5,
+	"xRand": 6
+	"targetair": true,
+	"targetground": true,
+	"shootSound": "missile",
+	"ammoTypes": [
+
+	"requirements": [
+		{ "item": "plastanium", "amount": 45 },
+		{ "item": "titanium", "amount": 35 },
+		{ "item": "silicon", "amount": 30 },
+		{ "item": "graphite", "amount": 35 },
+	]
+
+	"research": "swarmer"
+	"category": "turret"

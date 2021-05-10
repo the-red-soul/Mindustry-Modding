@@ -1,0 +1,67 @@
+{
+	"name": "A viable Swarmer",
+	"description": "A Swarmer, except now it is actually viable to use in a defence.",
+	"type": "ItemTurret",
+	"health": 1200,
+	"size": 2,
+	"range": 200,
+	"reloadTime": 30,
+	"shots": 4,
+	"inaccuracy": 10,
+	"burstSpacing": 5,
+	"xRand": 6,
+	"targetair": true,
+	"targetground": true,
+	"shootSound": "missile",
+	
+	"ammoTypes": {
+	"blast-compound": {
+			"type": "MissileBulletType",
+			"damage": 10,
+			"hitEffect": "blastExplosion",
+			"despawnEffect": "Fx.blastExplosion",
+			"drag": 0.1,
+			"ammoMultiplier": 10,
+			"splashDamage": 45,
+			"splashDamageRadius": 29.6,
+			"trailEffect": "missileTrail",
+			"status": "blasted"
+		}
+	"pyratite": {
+			"type": "MissileBulletType",
+			"frontColor": "f8ad42",
+			"backColor": "f68021",
+			"damage": 12,
+			"hitEffect": "blastExplosion",
+			"despawnEffect": "Fx.blastExplosion",
+			"drag": 0.1,
+			"ammoMultiplier": 10,
+			"splashDamage": 30,
+			"splashDamageRadius": 20,
+			"trailEffect": "missileTrail",
+			"status": "burning",
+			"makeFire": true
+		}
+	"surge-alloy": {
+		"type": "MissileBulletType",
+			"damage": 18,
+			"hitEffect": "blastExplosion",
+			"despawnEffect": "Fx.blastExplosion",
+			"drag": 0.1,
+			"ammoMultiplier": 10,
+			"splashDamage": 37,
+			"splashDamageRadius": 24.8,
+			"trailEffect": "missileTrail",
+			"lightningDamage": 10,
+			"lightning": 2,
+			"lightningLength": 10
+	"requirements": [
+		{ "item": "plastanium", "amount": 45 },
+		{ "item": "titanium", "amount": 35 },
+		{ "item": "silicon", "amount": 30 },
+		{ "item": "graphite", "amount": 35 },
+	]
+	"research": "swarmer",
+	"category": "turret",
+	"baseRegion": "block-2-red"
+}
