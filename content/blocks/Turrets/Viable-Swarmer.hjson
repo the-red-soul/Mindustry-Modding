@@ -18,6 +18,7 @@
 	"blast-compound": {
 			"type": "MissileBulletType",
 			"damage": 10,
+			"speed": 4,
 			"hitEffect": "blastExplosion",
 			"despawnEffect": "blastExplosion",
 			"drag": -0.01,
@@ -32,6 +33,7 @@
 			"frontColor": "f8ad42",
 			"backColor": "f68021",
 			"damage": 12,
+			"speed": 4,
 			"hitEffect": "blastExplosion",
 			"despawnEffect": "blastExplosion",
 			"drag": -0.01,
@@ -45,6 +47,7 @@
 	"surge-alloy": {
 		"type": "MissileBulletType",
 			"damage": 18,
+			"speed": 4,
 			"hitEffect": "blastExplosion",
 			"despawnEffect": "blastExplosion",
 			"drag": -0.01,
